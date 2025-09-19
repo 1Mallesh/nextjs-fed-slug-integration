@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo / Name */}
         <Link href="/" className="text-2xl font-bold text-blue-600">
-          Mallesh Portfolio
+         Portfolio
         </Link>
 
         {/* Desktop Menu (right aligned) */}
