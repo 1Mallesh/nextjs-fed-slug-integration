@@ -7,4 +7,4 @@ function services() {
   )
 }
 
-export default page
+export default services

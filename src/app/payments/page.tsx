@@ -7,4 +7,4 @@ function payments() {
   )
 }
 
-export default page
+export default payments

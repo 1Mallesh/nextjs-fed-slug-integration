@@ -113,7 +113,6 @@ export default function Header() {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/" className="hover:text-blue-500">{t("home")}</Link>
           <Link href="/about" className="hover:text-blue-500">{t("about")}</Link>
           <Link href="/experience" className="hover:text-blue-500">{t("experience")}</Link>
           <Link href="/projects" className="hover:text-blue-500">{t("projects")}</Link>
@@ -164,7 +163,6 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden bg-gray-100 px-6 py-4">
           <nav className="flex flex-col items-end space-y-3 text-left">
-            <Link href="/" onClick={() => setIsOpen(false)} className="block w-full">{t("home")}</Link>
             <Link href="/about" onClick={() => setIsOpen(false)} className="block w-full">{t("about")}</Link>
             <Link href="/experience" onClick={() => setIsOpen(false)} className="block w-full">{t("experience")}</Link>
             <Link href="/projects" onClick={() => setIsOpen(false)} className="block w-full">{t("projects")}</Link>

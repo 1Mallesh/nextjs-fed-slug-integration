@@ -8,4 +8,4 @@ function projects() {
   )
 }
 
-export default page
+export default projects
