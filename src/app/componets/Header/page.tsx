@@ -179,7 +179,7 @@ export default function Header() {
                 aria-label="Choose language"
                 value={locale}
                 onChange={(e) => { changeLocale(e.target.value as Locale); setIsOpen(false); }}
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border rounded focus:outline-none focus:ring-0"
               >
                 <option value="en">English</option>
                 <option value="hi">हिन्दी</option>
