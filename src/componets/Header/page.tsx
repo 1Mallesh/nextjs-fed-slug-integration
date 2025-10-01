@@ -37,7 +37,7 @@ export default function Header() {
               {item.logoUrl ? (
                 <div className="flex items-center gap-2 text-amber-200 text-gray-700">
                 <img src={item.logoUrl} alt="Logo" className="h-10 w-auto" />
-                <h2>Machine Maze</h2>
+                <h2>DEMO</h2>
                 </div>
               ) : (
                 <h1 className="text-xl font-bold">{item.title}</h1>
